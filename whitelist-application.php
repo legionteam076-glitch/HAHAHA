@@ -155,7 +155,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_application']))
             <p>Experience the ultimate GTA V roleplay server with immersive stories, content, and realistic gameplay</p>
             <div class="hero-buttons">
                 <a href="join.html" class="btn-primary">How To Join</a>
-                <a href="https://discord.gg/DugPSevG5U" class="btn-secondary">Join Discord</a>
+                <a href="https://discord.gg/tU26z9hSpS" class="btn-secondary">Join Discord</a>
             </div>
         </div>
     </div>
@@ -308,4 +308,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_application']))
 if (isset($conn) && $conn && !$conn->connect_error) {
     $conn->close();
 }
+
 ?>
